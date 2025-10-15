@@ -47,11 +47,13 @@ body {
   padding: 0px;
 }
 
-.list-item, .section-title {
+.list-item,
+.section-title {
   list-style: none;
 }
 
-.form-control, .btn {
+.form-control,
+.btn {
   outline: none;
 }
 
