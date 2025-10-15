@@ -16,39 +16,39 @@
       <p id="add-task-section">
         <label for="new-task">Add Item</label>
         <div class="input-group">
-          <input id="new-task" class="task-input" type="text">
-          <button class="add-btn">Add</button>
+          <input id="new-task" class="task-input form-control" type="text">
+          <button class="add-btn btn">Add</button>
         </div>
       </p>
-      <h3>Todo</h3>
-      <ul id="pending-tasks">
-        <li>
+      <h3 class="section-title">Todo</h3>
+      <ul id="pending-tasks" class="task-list">
+        <li class="list-item">
           <input type="checkbox">
           <label class="task-label">Pay Bills</label>
-          <input type="text" class="task-input">
-          <button class="edit-btn">Edit</button>
-          <button class="delete-btn">
+          <input type="text" class="task-input form-control">
+          <button class="edit-btn btn">Edit</button>
+          <button class="delete-btn btn">
             <img src="./remove.svg" alt="Delete">
           </button>
         </li>
-        <li class="task-item edit-mode">
+        <li class="list-item task-item edit-mode">
           <input type="checkbox">
           <label class="task-label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task-input">
-          <button class="save-btn">Save</button>
-          <button class="delete-btn">
+          <input type="text" value="Go Shopping" class="task-input form-control">
+          <button class="save-btn btn">Save</button>
+          <button class="delete-btn btn">
             <img src="./remove.svg" alt="Delete">
           </button>
         </li>
       </ul>
-      <h3>Completed</h3>
-      <ul id="completed-tasks">
-        <li>
+      <h3 class="section-title">Completed</h3>
+      <ul id="completed-tasks" class="task-list">
+        <li class="list-item">
           <input type="checkbox" checked>
           <label class="task-label">See the Doctor</label>
-          <input type="text" class="task-input">
-          <button class="edit-btn">Edit</button>
-          <button class="delete-btn">
+          <input type="text" class="task-input form-control">
+          <button class="edit-btn btn">Edit</button>
+          <button class="delete-btn btn">
             <img src="./remove.svg">
           </button>
         </li>
